@@ -1,0 +1,12 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 1530px;
+  height: 100%;
+}

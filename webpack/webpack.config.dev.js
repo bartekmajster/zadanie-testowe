@@ -36,7 +36,7 @@ module.exports = merge(common, {
       },
       {
         test: /\.css$/i,
-        use: ['style-loader', 'css-loader?sourceMap=true']
+        use: ['style-loader', 'css-loader?sourceMap=true', 'postcss-loader']
       }
     ]
   }

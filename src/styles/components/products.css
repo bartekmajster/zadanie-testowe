@@ -65,7 +65,7 @@
 
 .product__image-source{
   width: 90%;
-  height: auto;
+  /*height: auto;*/
 }
 
 .product__description{
@@ -85,6 +85,7 @@
   font-size: 14px;
   color: var(--color-dark-gray);
   text-decoration: line-through var(--color-dark-gray);
+  margin-left: 5px;
 }
 .product__title{
   font-size: 13px;

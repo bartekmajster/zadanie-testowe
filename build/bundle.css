@@ -898,11 +898,15 @@ body {
   .products{
     grid-template-columns: 1fr 1fr 1fr;
   }
+
 }
 
 @media (max-width: 1010px){
   .product__image{
     margin: 40px 0;
+  }
+  .product__image-source{
+    max-height: 100px;
   }
 }
 
@@ -919,6 +923,9 @@ body {
   .product__save{
     width: 100%;
   }
+  .product__image-source{
+    max-height: 80px;
+  }
 }
 
 @media (max-width: 570px){
@@ -927,6 +934,9 @@ body {
   }
   .product__description{
     padding-bottom: 15px;
+  }
+  .product__image-source{
+    max-height: 50px;
   }
 }
 

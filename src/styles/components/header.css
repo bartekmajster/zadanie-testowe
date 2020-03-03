@@ -16,15 +16,16 @@
   position: relative;
 }
 
-.header__clock-image {
+/*.header__clock-image {
   width: 240px;
   height: 240px;
-}
+}*/
 
 .header__clock-title {
   position: absolute;
   top: 50%;
   left: 0;
+  z-index: 2;
   transform: translateY(-50%);
 }
 
@@ -46,6 +47,7 @@
   background-color: var(--color-black);
   position: absolute;
   top: 0;
+  z-index: 2;
   left: 240px;
   display: flex;
   justify-content: center;
@@ -143,6 +145,10 @@
   color: var(--color-white);
   line-height: 38px;
   text-align: center;
+}
+
+#time{
+  font-family: 'Roboto';
 }
 
 .header__counter-time {

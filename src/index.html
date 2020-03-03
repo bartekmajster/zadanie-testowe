@@ -8,12 +8,26 @@
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900&display=swap&subset=latin-ext"
         rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="container">
   <header class="header">
     <div class="header__clock">
-      <img src="../public/assets/images/clock.png" alt="clock" class="header__clock-image">
+      <!--<img src="../public/assets/images/clock.png" alt="clock" class="header__clock-image">-->
+      <div class="clock">
+        <div class="outer-clock-face">
+          <div class="marking marking-one"></div>
+          <div class="marking marking-two"></div>
+          <div class="marking marking-three"></div>
+          <div class="marking marking-four"></div>
+          <div class="inner-clock-face">
+            <div class="hand hour-hand"></div>
+            <div class="hand min-hand"></div>
+            <div class="hand second-hand"></div>
+          </div>
+        </div>
+      </div>
       <div class="header__clock-title">
         <h1 class="header__title header__title--yellow">gorący</h1>
         <h1 class="header__title">czwartek</h1>
@@ -43,7 +57,7 @@
       <div>
         <h6 class="header__counter-title">do końca pozostało</h6>
         <div class="header__counter-time">
-          <p>04 : 11 : 16 : 42</p>
+          <p id="time">04 : 11 : 16 : 42</p>
         </div>
         <div class="header__counter-desctiption">
           <p class="header__counter-date">dni</p>

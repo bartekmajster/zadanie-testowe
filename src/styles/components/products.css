@@ -74,6 +74,7 @@
   width: 90%;
   height: auto;
   max-height: 139px;
+  object-fit: cover;
 }
 
 .product__description{

@@ -21,7 +21,7 @@ class App{
 	}
 
 	init(){
-		fetch('../../public/assets/example.json')
+		fetch('../public/assets/example.json')
 			.then(response => response.json())
 			.then(data => this.products.push(...data.list))
 			.then(() => this.mapProduct())

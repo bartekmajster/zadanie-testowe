@@ -54,8 +54,10 @@ export default class App{
         >
       </div>
       <div class="product__description">
+      <div>
         <p class="product__price">${promo} zł</p>
         <p class="product__price-old"><s>${base} zł</s></p>
+      </div>
         <p class="product__title">${name}</p>
         <p class="product__group">Grupa ${producer}</p>
       </div>

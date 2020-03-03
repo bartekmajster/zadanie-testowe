@@ -255,4 +255,7 @@
   .header__counter{
     padding: 10px 10px;
   }
+  #time{
+    font-size: 39px;
+  }
 }

@@ -165,6 +165,13 @@
   }
 }
 
+@media (max-width: 610px){
+  .product__save{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 570px) {
   .products {
     grid-template-columns: 1fr 1fr;

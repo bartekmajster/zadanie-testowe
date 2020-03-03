@@ -736,6 +736,12 @@ body {
     margin-top: 20px;
   }
 }
+@media (max-width: 690px){
+  .information__quantity{
+    margin-top: 20px;
+    width: 100%;
+  }
+}
 
 @media (max-width: 500px){
   .information{
@@ -794,11 +800,25 @@ body {
   width: 50%;
 }
 
+.product__bag-wrapper{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
 .product__icon{
   display: inline-block;
   width: 18px;
   height: 18px;
+  margin-right: 10px;
 }
 
 .product__quantity{
@@ -832,7 +852,8 @@ body {
 
 .product__image-source{
   width: 90%;
-  /*height: auto;*/
+  height: auto;
+  max-height: 139px;
 }
 
 .product__description{
@@ -871,7 +892,7 @@ body {
   }
 }
 
-@media (max-width: 1340px){
+@media (max-width: 1100px){
   .products{
     grid-template-columns: 1fr 1fr 1fr;
   }

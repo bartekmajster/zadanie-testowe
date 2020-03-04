@@ -1,6 +1,6 @@
 [production staging]
 >2%
-last 2 versions
+last 4 versions
 Firefox ESR
 ie 11
 

@@ -27,7 +27,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, div {
     display: block;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -171,7 +171,7 @@ html input[disabled] {
 input[type="checkbox"],
 input[type="radio"] {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding: 0;
     *height: 13px;
     *width: 13px;
@@ -266,7 +266,7 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
-  background-color: var(--color-white);
+  background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -286,7 +286,7 @@ body {
           box-sizing: border-box;
   width: 100%;
   height: 300px;
-  background-color: var(--color-red);
+  background-color: #ff0000;
   padding: 30px 60px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -323,18 +323,18 @@ body {
   font-size: 46px;
   line-height: 50px;
   text-transform: uppercase;
-  font-weight: var(--black);
-  color: var(--color-white);
+  font-weight: 900;
+  color: #ffffff;
 }
 
 .header__title--yellow {
-  color: var(--color-yellow);
+  color: #ffef3a;
 }
 
 .header__clock-popup {
   width: 290px;
   height: 85px;
-  background-color: var(--color-black);
+  background-color: #000000;
   position: absolute;
   top: 0;
   z-index: 2;
@@ -354,7 +354,7 @@ body {
   content: '';
   width: 0;
   height: 0;
-  border-top: 20px solid var(--color-black);
+  border-top: 20px solid #000000;
   border-right: 32px solid transparent;
   position: absolute;
   bottom: -20px;
@@ -363,15 +363,15 @@ body {
 
 .header__clock-info {
   display: inline-block;
-  color: var(--color-white);
+  color: #ffffff;
   font-size: 26px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: var(--extra-light);
+  font-weight: 200;
 }
 
 .header__clock-info--bold {
-  font-weight: var(--bold);
+  font-weight: 700;
   margin-right: 10px;
 }
 
@@ -381,7 +381,7 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: var(--color-white);
+  background-color: #ffffff;
   position: absolute;
   bottom: -12px;
   left: 450px;
@@ -398,7 +398,7 @@ body {
 
 .header__delivery-title {
   text-align: center;
-  font-weight: var(--regular);
+  font-weight: 400;
   font-size: 15px;
 }
 
@@ -411,7 +411,7 @@ body {
   margin-left: 10px;
   font-size: 22px;
   text-transform: uppercase;
-  font-weight: var(--light);
+  font-weight: 300;
   width: 100%;
 }
 
@@ -419,12 +419,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: var(--color-yellow);
+  color: #ffef3a;
 }
 
 .header__discounts-number {
   font-size: 185px;
-  font-weight: var(--light);
+  font-weight: 300;
   line-height: 150px;
 }
 
@@ -434,7 +434,7 @@ body {
 
 .header__counter {
   padding: 15px 20px;
-  border: 3px solid var(--color-white);
+  border: 3px solid #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -449,7 +449,7 @@ body {
 .header__counter-title {
   font-size: 16px;
   text-transform: uppercase;
-  color: var(--color-white);
+  color: #ffffff;
   line-height: 38px;
   text-align: center;
 }
@@ -460,8 +460,8 @@ body {
 
 .header__counter-time {
   font-size: 54px;
-  font-weight: var(--bold);
-  color: var(--color-white);
+  font-weight: 700;
+  color: #ffffff;
 }
 
 .header__counter-desctiption {
@@ -475,7 +475,7 @@ body {
 
 .header__counter-date {
   text-transform: uppercase;
-  font-weight: var(--bold);
+  font-weight: 700;
   font-size: 19px;
 }
 
@@ -544,7 +544,7 @@ body {
 
   .header__delivery {
     bottom: -80px;
-    border: 3px solid var(--color-red);
+    border: 3px solid #ff0000;
     background-color: transparent;
   }
 }
@@ -623,7 +623,7 @@ body {
   left: 10%;
   width: 80%;
   height: 80%;
-  background: var(--color-red);
+  background: #ff0000;
   border-radius: 100%;
   z-index: 1;
 }
@@ -704,7 +704,7 @@ body {
 }
 
 .information__time-strong{
-  font-weight: var(--bold);
+  font-weight: 700;
 }
 
 .information__discount-dot{
@@ -712,18 +712,18 @@ body {
   width: 22px;
   height: 22px;
   margin-right: 10px;
-  background-color: var(--color-red);
+  background-color: #ff0000;
   border-radius: 50%;
   text-align: center;
   line-height: 22px;
-  color: var(--color-white);
-  font-weight: var(--bold);
+  color: #ffffff;
+  font-weight: 700;
 }
 
 .information__discount-text{
   display: inline-block;
   font-size: 14px;
-  font-weight: var(--bold);
+  font-weight: 700;
   word-break: break-all;
   line-height: 20px;
 }
@@ -773,7 +773,7 @@ body {
 .product {
   padding-top: 54px;
   width: 100%;
-  border: 1px solid var(--color-light-gray);
+  border: 1px solid #ebebeb;
   position: relative;
   padding-bottom: 25px;
 }
@@ -836,13 +836,13 @@ body {
   font-size: 15px;
   padding: 10px 10px;
   width: 50%;
-  border: 2px solid var(--color-red);
-  color: var(--color-red);
+  border: 2px solid #ff0000;
+  color: #ff0000;
   text-align: center;
 }
 
 .product__save--bold {
-  font-weight: var(--bold);
+  font-weight: 700;
 }
 
 .product__image {
@@ -876,28 +876,28 @@ body {
 .product__price {
   display: inline-block;
   font-size: 20px;
-  font-weight: var(--bold);
-  color: var(--color-red);
+  font-weight: 700;
+  color: #ff0000;
 }
 
 .product__price-old {
   display: inline-block;
   font-size: 14px;
-  color: var(--color-dark-gray);
-  -webkit-text-decoration: line-through var(--color-dark-gray);
-          text-decoration: line-through var(--color-dark-gray);
+  color: #1a171b;
+  -webkit-text-decoration: line-through #1a171b;
+          text-decoration: line-through #1a171b;
   margin-left: 5px;
 }
 
 .product__title {
   font-size: 13px;
-  font-weight: var(--bold);
+  font-weight: 700;
   /*padding: 10px 0;*/
 }
 
 .product__group {
-  color: var(--color-light-gray2);
-  font-weight: var(--bold);
+  color: #9f9f9f;
+  font-weight: 700;
 }
 
 @media (max-width: 1560px) {

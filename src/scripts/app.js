@@ -6,7 +6,7 @@ export default class App{
 	}
 
 	init(){
-		fetch('../public/assets/example.json')
+		window.fetch('../public/assets/example.json')
 			.then(response => response.json())
 			.then(data => this.products.push(...data.list))
 			.then(() => this.mapProduct())

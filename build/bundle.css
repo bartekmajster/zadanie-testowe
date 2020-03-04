@@ -765,10 +765,9 @@ body {
 }
 
 .product {
-  padding-top: 54px;
+  padding: 54px 20px 20px 20px;
   border: 1px solid #ebebeb;
   position: relative;
-  padding-bottom: 25px;
   width: calc(100% / 4 - 20px);
   margin: 10px;
 }
@@ -860,8 +859,7 @@ body {
 }
 
 .product__description {
-  width: 90%;
-  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .product__description-top{
@@ -890,6 +888,9 @@ body {
 }
 
 .product__group {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
   color: #9f9f9f;
   font-weight: 700;
   margin-top: 10px;
@@ -944,6 +945,11 @@ body {
 
   .product{
     width: calc(100% / 2 - 20px);
+    padding: 54px 10px 10px 10px;
+  }
+
+  .product__group{
+    left: 10px;
   }
 
   .product__image-source {
@@ -956,7 +962,7 @@ body {
     max-height: 70px;
   }
   .product__price-old {
-    margin-left: 0px;
+    margin-left: 0;
   }
 }
 

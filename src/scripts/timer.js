@@ -2,7 +2,7 @@ const timer = document.querySelector('#time');
 
 export default function countDown() {
 	const now = new Date().getTime();
-	const eventDate = new Date(2020, 3, 10).getTime();
+	const eventDate = new Date(2020, 4, 10).getTime();
 
 	const remTime = eventDate - now;
 
